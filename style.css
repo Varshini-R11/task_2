@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background:  hsl(30, 38%, 92%);;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    height: 500px;
+    width: 600px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+ .img{
+    background-image: url(images/image-product-desktop.jpg);
+    height: 500px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.perfum{
+    display: flex;
+    margin-left: 340px;
+    margin-top: -450px;
+    letter-spacing: 7px;
+    color: hsl(228, 12%, 48%);
+}
+.h2{
+    margin-left: 340px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+.p{
+    margin-left: 340px;
+    margin-top: 25px;
+    color: hsl(228, 12%, 48%);
+}
+.h1{
+    margin-left: 340px;
+    margin-top: 25px;
+    color: hsl(158, 36%, 36%);
+}
+button{
+    background-color: hsl(158, 36%, 36%);
+    margin-left: 340px;
+    margin-top: 25px;
+    width: 200px;
+    height: 60px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0 solid white;
+}
+.icon{
+    display: flex;
+    margin-left: 375px;
+    margin-top:-38px; 
+}
+.stick{
+    font-size: 14px;
+    color: black;
+    margin-left: 470px;
+    margin-top: -25px;
+}
